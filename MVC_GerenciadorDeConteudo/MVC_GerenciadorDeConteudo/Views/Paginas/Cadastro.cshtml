@@ -1,0 +1,32 @@
+﻿
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciador de Conteudo</title>
+    <link rel="stylesheet" href="~/assets/css/CadastroAlterStyle.css" type="text/css">
+</head>
+
+<div class="jumbotron">
+    <h1>Cadastro</h1>
+    <div id="link">
+        <a href="/paginas/Index" class="btn btn-default">Voltar</a>
+    </div>
+
+    <form action="/paginas/Criar" method="post">
+        <div class="form-group">
+            <label for="Nome" id="nomePagina">Nome da Pagina:</label>
+            <input type="text" class="form-control" id="nome" name="nome">
+        </div>
+        <div class="form-group">
+            <label for="data" id="dataPagina">Data:</label>
+            <input type="datetime" class="form-control" id="data" name="data">
+        </div>
+        <div class="form-group">
+            <label for="conteudo" id="conteudoPagina">Conteúdo:</label>
+            <textarea id="conteudo" class="form-control" name="conteudo"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-default" id="link">Salvar</button>
+    </form>
+
+</div>

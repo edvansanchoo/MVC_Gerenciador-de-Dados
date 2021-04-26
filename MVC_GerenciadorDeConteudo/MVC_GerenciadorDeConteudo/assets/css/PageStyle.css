@@ -1,0 +1,63 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: rgb(176, 218, 235);
+    padding: 30px;
+}
+
+.jumbotron h1 {
+    color: #5541d9;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+#link{
+    color: black;
+    font-size: 18px;
+    background-color: #94ebe0;
+    margin: 40px auto;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+#link a {
+    color: black;
+    text-decoration: none;
+}
+
+.table {
+    width: 100%;
+}
+
+.th, td, tr {
+    border: 1px solid black;
+}
+
+.alter, .title-alterar {
+    border: none;
+}
+
+.alter {
+    color: black;
+    font-size: 18px;
+    background-color: #94ebe0;
+    margin: 10px auto;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+#btn-alter {
+    text-decoration: none;
+}

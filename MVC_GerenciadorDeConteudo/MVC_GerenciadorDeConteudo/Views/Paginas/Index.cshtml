@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Paginas";
+    List<Business.Pagina> paginas = ViewBag.Paginas;
+}
+
+<!--Verificando se realmente deseja excluir-->
+<script src="~/assets/js/Validacao.js"></script>
+
+<!--Validando mensagens-->
+@if (TempData["sucesso"] != null)
+{
+    <div class="alert alert-success">@TempData["sucesso"]</div>
+}
+
+@if (@TempData["erro"] != null)
+{
+    <div class="alert alert-danger">@TempData["erro"]</div>
+}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciador de Conteudo</title>
+    <link rel="stylesheet" href="~/assets/css/PageStyle.css" type="text/css">
+</head>
+
+<div class="jumbotron">
+    <h1>Paginas</h1>
+    <div id="link">
+        <a href="/paginas/Cadastro" class="btn btn-default">Nova Pagina</a>
+    </div>
+    <table class="table">
+        <tr class="table-title">
+            <td>ID</td>
+            <td>Nome</td>
+            <td>Data</td>
+            <td class="title-alterar"></td>
+            <td class="title-alterar"></td>
+        </tr>
+        @foreach (var p in paginas)
+        {
+        <tr class="table-conteudo">
+            <td>@p.Id</td>
+            <td>@p.Nome</td>
+            <td>@p.Data</td>
+            <td class="alter">
+                <a href="/paginas/@p.Id/editar" id="btn-alter">Alterar</a>
+            </td>
+            <td class="alter">
+                <a href="/paginas/@p.Id/excluir" id="btn-alter" onclick="ValidaExclusao(@p.Id, event)">Excluir</a>
+            </td>
+        </tr>
+
+        }
+    </table>
+
+</div>

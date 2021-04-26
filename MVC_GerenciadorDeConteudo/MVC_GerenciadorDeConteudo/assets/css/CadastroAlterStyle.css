@@ -1,0 +1,64 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: rgb(176, 218, 235);
+    padding: 30px;
+}
+
+.jumbotron h1 {
+    color: #5541d9;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+#link{
+    color: black;
+    font-size: 18px;
+    background-color: #94ebe0;
+    margin: 40px auto;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+#link a {
+    color: black;
+    text-decoration: none;
+}
+
+.form-group {
+    text-align: left;
+    margin: 10px auto;
+
+}
+
+.form-group input {
+    padding: 10px 40px;
+}
+
+.form-group label {
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+#data {
+    margin-left: 85px;
+}
+
+#conteudo {
+    margin-left: 50px;
+    width: 240px;
+    height: 100px;
+}
+
+#conteudoPagina{
+
+}

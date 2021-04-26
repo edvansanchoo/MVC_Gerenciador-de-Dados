@@ -1,0 +1,6 @@
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\DataBase\bin\Debug\DataBase.dll
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\DataBase\bin\Debug\DataBase.pdb
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\DataBase\obj\Debug\DataBase.csprojAssemblyReference.cache
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\DataBase\obj\Debug\DataBase.dll
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\DataBase\obj\Debug\DataBase.pdb

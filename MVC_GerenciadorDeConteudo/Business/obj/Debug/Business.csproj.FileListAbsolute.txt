@@ -1,0 +1,9 @@
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\bin\Debug\Business.dll
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\bin\Debug\Business.pdb
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\bin\Debug\DataBase.dll
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\bin\Debug\DataBase.pdb
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\obj\Debug\Business.dll
+C:\Users\edvan\source\repos\MVC_GerenciadorDeConteudo\Business\obj\Debug\Business.pdb
